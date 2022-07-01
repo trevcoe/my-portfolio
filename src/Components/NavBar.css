@@ -1,0 +1,28 @@
+.navbar{
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(67, 69, 78);
+}
+
+.header-name{
+    font-family: 'roboto';
+    font-weight: 200;
+    font-size: x-large;
+    color: white;
+    padding: 1rem;
+}
+
+.social-logo{
+    color: white;
+    padding: 1rem;
+    font-size: x-large;
+    transition: transform .2s;
+}
+
+.social-logo:hover{
+    transform: scale(1.5);
+}
