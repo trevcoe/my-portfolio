@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from './Components/NavBar';
-import {HiOutlineMail} from 'react-icons/hi';
+import {GrMail} from 'react-icons/gr';
 import {FaLinkedin} from 'react-icons/fa';
 import {BsGithub} from 'react-icons/bs';
 
@@ -15,7 +15,7 @@ function App() {
         </div>
           <div className='social-icons'>
             <a href='//gmail.com'>
-              <HiOutlineMail className='social-icon-spacing'/>
+              <GrMail className='social-icon-spacing'/>
             </a>
             <a href='//www.linkedin.com/in/trevor-coe12/'>
               <FaLinkedin className='social-icon-spacing'/>
