@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   background-color: rgb(67, 69, 78);
 }
@@ -24,9 +28,9 @@
 }
 
 .social-icon-spacing {
-  padding: 1rem;
+  margin: 1rem;
   opacity: .65;
-  transition: 200ms;
+  transition: 300ms;
 }
 
 .social-icon-spacing:hover{
@@ -37,7 +41,7 @@
   color: white;
   display: flex;
   justify-content: center;
-  padding: 1.5rem
+  padding: 3.5rem
 }
 
 .underline.top {

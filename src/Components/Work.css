@@ -1,0 +1,56 @@
+.title{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(67, 69, 78);
+    padding: 2rem;
+}
+
+.my-work-images{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 69, 78);
+}
+
+.virtual-vpn{
+    max-width: 40%;
+    max-height: 50%;
+    padding: 1.5rem;
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    border-radius: calc(0.25rem rem - 1px);
+}
+
+.virtual-vpn:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+.yummy{
+    max-width: 40%;
+    max-height: 50%;
+    padding: 1.5rem;
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    border-radius: calc(0.25rem rem - 1px);
+}
+
+.yummy:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+@media screen {
+    
+}
