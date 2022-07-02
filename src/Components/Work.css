@@ -26,7 +26,7 @@
     -webkit-transition: .2s ease-in-out;
     -o-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
-    border-radius: calc(0.25rem rem - 1px);
+    border-radius: calc(0.25rem - 1px);
 }
 
 .virtual-vpn:hover{
