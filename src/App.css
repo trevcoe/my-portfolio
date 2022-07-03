@@ -48,4 +48,7 @@
   position: relative; top: 130px;
 }
 
-a { color:rgb(62, 228, 198)}
+a { 
+  color:rgb(62, 228, 198);
+  text-decoration: none;
+}
