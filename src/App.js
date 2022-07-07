@@ -3,7 +3,7 @@ import NavBar from './Components/NavBar';
 import Work from './Components/Work';
 import {GrMail} from 'react-icons/gr';
 import {FaLinkedin} from 'react-icons/fa';
-import {BsGithub} from 'react-icons/bs';
+import {BsGithub, BsFillChatLeftTextFill} from 'react-icons/bs';
 
 function App() {
   return (
@@ -12,11 +12,14 @@ function App() {
     <div className="App">
       <div className='underline top'>__________________</div>
         <div className="about-me-text">
-          <p>Hello. I'm Trevor Coe - a software engineer that enjoys building front-end applications. I'm currently living and working in Ohio.</p>
+          <p>Hello. I'm Trevor Coe - a software developer that enjoys building front-end applications. I'm currently living and working in Ohio.</p>
         </div>
           <div className='social-icons'>
-            <a href='//gmail.com'>
+            <a href='mailto: trevcoe12@gmail.com'>
               <GrMail className='social-icon-spacing'/>
+            </a>
+            <a href='tel:+16145313988'>
+              <BsFillChatLeftTextFill className='social-icon-spacing'/>
             </a>
             <a href='//www.linkedin.com/in/trevor-coe12/'>
               <FaLinkedin className='social-icon-spacing'/>
