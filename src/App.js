@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './Components/NavBar';
 import Work from './Components/Work';
+import Resume from './Components/resume';
 import {GrMail} from 'react-icons/gr';
 import {FaLinkedin} from 'react-icons/fa';
 import {BsGithub, BsFillChatLeftTextFill} from 'react-icons/bs';
@@ -31,6 +32,7 @@ function App() {
         <div className='underline'>__________________</div>
     </div>
     <Work />
+    <Resume />
     </>
   );
 }

@@ -6,7 +6,7 @@ import img2 from '../Assets/Images/yummy.png';
 function Work() {
   return (
     <>
-    <div className='title'>Things I've Created</div>
+    <div className='title'><b>Things I've Created</b></div>
         <div className='my-work-images'>
             <a href='https://virtual-vpn.herokuapp.com' target="_blank" rel="noreferrer">
               <img className='virtual-vpn' src={img1} alt='virtual-vpn'></img>
