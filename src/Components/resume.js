@@ -1,7 +1,7 @@
 import React from 'react';
 import './resume.css';
 import {FaHtml5, FaPython, FaReact, FaCss3} from 'react-icons/fa';
-import {SiFlask, SiJavascript} from 'react-icons/si';
+// import {SiFlask, SiJavascript} from 'react-icons/si';
 
 function resume() {
   return (
@@ -17,11 +17,11 @@ function resume() {
         <div className='frameworks'>
             <FaHtml5 className='icon'/>
             <FaCss3 className='icon' />
-            <SiJavascript className='icon' />
+            {/* <SiJavascript className='icon' /> */}
         </div>
         <div className='frameworks-2'>
             <FaReact className='icon-2'/>
-            <SiFlask className='icon-2'/>
+            {/* <SiFlask className='icon-2'/> */}
             <FaPython className='icon'/>
         </div>
 
